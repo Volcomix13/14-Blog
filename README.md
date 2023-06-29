@@ -30,10 +30,10 @@ Once all the packages are installed,
 6. Open Insomnia and choose your express method (get/put/post/delete) followed by localhost:3001/api. You can add the route you wish to test by adding the name of the route after api. See example below.
 
     
-![Image](./assets/image.png)
+<!-- ![Image](./assets/image.png) -->
     
 
-Repo link: 
+Repo link: https://github.com/Volcomix13/14-Blog
 
 ## License
 Please see repository for license info.
