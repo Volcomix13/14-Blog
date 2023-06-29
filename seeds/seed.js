@@ -1,7 +1,7 @@
 const sequelize = require('../config/connection');
-const { User, Project } = require('../models');
+const { User, Project } = require('../models'); //update to proper models
 
-const userData = require('./userData.json');
+const userData = require('./userData.json');//create json files for these
 const projectData = require('./projectData.json');
 
 const seedDatabase = async () => {
