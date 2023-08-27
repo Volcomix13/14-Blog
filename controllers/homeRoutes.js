@@ -3,7 +3,7 @@ const { Post, Comment, User } = require('../models');
 const withAuth = require('../utils/auth');
 const sequelize = require('../config/connection');
 
-router.get('/', async (req, res) => {
+router.get('/', (req, res) => {
   Post.findAll({
     attributes: [
       'id',
