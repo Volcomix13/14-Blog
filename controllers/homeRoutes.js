@@ -51,7 +51,7 @@ router.get('/post/:id', async (req, res) => {
         plain: true
       }));
       res.render('single-post', {
-        posts,
+        post,
         loggedIn: req.session.loggedIn
       });
     })
