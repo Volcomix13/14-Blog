@@ -1,4 +1,4 @@
-//add a post and delete route
+//add a post route
 const router = require('express').Router();
 const { Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
